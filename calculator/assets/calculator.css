@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #23272a;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0;
+}
+
+.container .card {
+  background-color: #3c4041;
+  width: 300px;
+  min-height: 550px;
+  border-radius: 20px;
+  padding: 15px 20px;
+}
+
+.container .card .top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .card .display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 20px 0;
+}
+
+.container .card .display .calculation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container .card .display .calculation span {
+  margin: 5px;
+}
+
+.container .card .display .result {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.container .card .action-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0;
+}
+
+.container .card .action-container .switch-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .action-container .switch-container > span {
+  margin-left: 8px;
+}
+
+.container .card .action-container .switch-container .switch {
+  width: 34px;
+  padding: 0.2rem;
+  height: 17px;
+  -webkit-box-shadow: inset 0px 1px 3px #000000;
+          box-shadow: inset 0px 1px 3px #000000;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.container .card .action-container .switch-container .switch span {
+  border-radius: 50%;
+  background-color: #f4f5f7;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  left: 2px;
+}
+
+.container .card .action-container .switch-container .switch input {
+  display: none;
+}
+
+.container .card .action-container .switch-container .switch input:checked ~ span {
+  left: 21px;
+  background-color: #a9acb3;
+}
+
+.container .card .dial-keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+button {
+  background-color: #414246;
+  border-radius: 50%;
+  border: 0px;
+  min-width: 50px;
+  min-height: 50px;
+  -webkit-box-shadow: 0px 5px 5px 1px #353131cf;
+          box-shadow: 0px 5px 5px 1px #353131cf;
+}
+/*# sourceMappingURL=calculator.css.map */

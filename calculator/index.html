@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="card">
+        <!-- Top Header for date and status bar -->
+        <div class="top-header">
+          <div class="top-header-left">
+            <span>11</span> <span>:</span> <span>30</span>
+          </div>
+          <div class="top-header-right">
+            <i class="fa fa-signal" aria-hidden="true"></i>
+            <i class="fa fa-wifi" aria-hidden="true"></i>
+            <i class="fa fa-battery-full" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- Top Header close -->
+
+        <!-- Display Section -->
+        <div class="display">
+          <div class="calculation">
+            <span>2*4</span>
+            <span>8/2(2+2)</span>
+            <span>(1+27+25)*1,320754716981</span>
+            <span>70+30</span>
+          </div>
+
+          <h1 class="result">=100</h1>
+        </div>
+        <!-- Display Section closed -->
+        <!-- switch section start -->
+        <div class="action-container">
+          <div class="switch-container">
+            <label for="switch" class="switch">
+              <input type="checkbox" name="switch" id="switch" />
+              <span></span>
+            </label>
+            <span>Switch To light Theme</span>
+          </div>
+
+          <button class="arrow">
+            <i class="fa fa-arrows-alt-v" aria-hidden="true"></i>
+          </button>
+        </div>
+        <!-- switch section close -->
+        <!-- dial keys section start -->
+        <div class="dial-keys">
+          <button>C</button>
+          <button>(</button>
+          <button>)</button>
+          <button>*</button>
+          <button>&#8730;</button>
+          <button>%</button>
+          <button>&#177;</button>
+          <button>&#247;</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>-</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>+</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>=</button>
+          <button>.</button>
+          <button>0</button>
+          <button><i class="fa fa-backspace" aria-hidden="true"></i></button>
+        </div>
+        <!-- dial keys section end -->
+      </div>
+    </section>
+  </body>
+</html>

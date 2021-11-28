@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  //   padding: 100px 50px;
+  width: 1000px;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  align-items: stretch;
+  justify-items: stretch;
+  grid-gap: 20px;
+
+  .large {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+}
+
+.timeline-wrapper {
+  padding: 50px;
+  .timeline {
+    display: flex;
+    padding: 30px;
+    position: relative;
+
+    .divider {
+      width: 10px;
+      display: block;
+      margin: 0px 10px;
+
+      &::before {
+        border-left: 2px solid grey;
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        content: "";
+      }
+    }
+
+    .item-left {
+      position: relative;
+      &::after {
+        content: "";
+        background-color: grey;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        right: -18px;
+        top: 8px;
+        // transform: translate(292%, -182%);
+      }
+    }
+  }
+}

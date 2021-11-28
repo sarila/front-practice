@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #7094f4;
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+
+.container .card {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 23px 20px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  -webkit-box-shadow: 0px 0px 5px 1px #bd8b8b7a;
+          box-shadow: 0px 0px 5px 1px #bd8b8b7a;
+}
+
+.container .card.color1 {
+  background-color: #ffebe5;
+}
+
+.container .card.color2 {
+  background-color: #fdf1db;
+}
+
+.container .card.color3 {
+  background-color: #cfecff;
+}
+
+.container .card .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .card .content .content-left > * {
+  padding: 5px 0;
+}
+
+.container .card .content .content-left > h1 {
+  padding-top: 0;
+}
+
+.container .card .content .content-left > p {
+  color: #c4bcc1;
+}
+
+.container .card .content .content-right img {
+  border-radius: 50%;
+}
+
+.container .card hr {
+  margin: 13px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 3px;
+  border: none;
+}
+
+.container .card .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card .footer .participats-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container .card .footer .participats-section img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+
+.container .card .footer .participats-section img:not(:last-child) {
+  position: relative;
+  margin-right: -14px;
+}
+/*# sourceMappingURL=styles.css.map */
